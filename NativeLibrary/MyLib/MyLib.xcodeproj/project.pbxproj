@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50149BDA09E781A5002DEE6A /* MyLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 50149BD909E781A5002DEE6A /* MyLib.h */; };
+		5073E0CB09E734E500EC74B6 /* MyLib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5073E0C409E734A800EC74B6 /* MyLib.cpp */; };
+		C9446E3913459AB3004F408F /* libMyLib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D2AAC09D05546B4700DB518D /* libMyLib.dylib */; };
+		C9446E5313459D7A004F408F /* libMyLib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D2AAC09D05546B4700DB518D /* libMyLib.dylib */; };
+		C9446E8C1345A15F004F408F /* libMyLib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D2AAC09D05546B4700DB518D /* libMyLib.dylib */; };
+		C9446EBB1345A425004F408F /* libMyLib.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = D2AAC09D05546B4700DB518D /* libMyLib.dylib */; };
+		C9446F4B13464A9D004F408F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9446F4A13464A9D004F408F /* OpenGL.framework */; };
+		C971472F135632130035685F /* PointCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = C971472D135632130035685F /* PointCloud.h */; };
+		C9714730135632140035685F /* PointCloud.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C971472E135632130035685F /* PointCloud.cpp */; };
+		C971474E1356388E0035685F /* Collider.h in Headers */ = {isa = PBXBuildFile; fileRef = C971474C1356388E0035685F /* Collider.h */; };
+		C971474F1356388E0035685F /* Collider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C971474D1356388E0035685F /* Collider.cpp */; };
+		C998D8641348F271008D0077 /* libnimCodecs.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C998D8601348F271008D0077 /* libnimCodecs.dylib */; };
+		C998D8651348F271008D0077 /* libnimMockNodes.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C998D8611348F271008D0077 /* libnimMockNodes.dylib */; };
+		C998D8661348F271008D0077 /* libnimRecorder.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C998D8621348F271008D0077 /* libnimRecorder.dylib */; };
+		C998D8671348F271008D0077 /* libOpenNI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C998D8631348F271008D0077 /* libOpenNI.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C9446D9B134596E9004F408F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../../../MyLibDriver/build/Debug;
+			dstSubfolderSpec = 16;
+			files = (
+				C9446E3913459AB3004F408F /* libMyLib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9446E4F13459D68004F408F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../../../MyLibMonoDriver/MyLibMonoDriver/bin/Debug;
+			dstSubfolderSpec = 16;
+			files = (
+				C9446E5313459D7A004F408F /* libMyLib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9446E8B1345A13A004F408F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../../../MyLibMono/MyLibMono/bin/Debug;
+			dstSubfolderSpec = 16;
+			files = (
+				C9446E8C1345A15F004F408F /* libMyLib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9446EBA1345A40C004F408F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = ../../../..;
+			dstSubfolderSpec = 16;
+			files = (
+				C9446EBB1345A425004F408F /* libMyLib.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* MyLib_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLib_Prefix.pch; sourceTree = "<group>"; };
+		50149BD909E781A5002DEE6A /* MyLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLib.h; sourceTree = "<group>"; };
+		5073E0C409E734A800EC74B6 /* MyLib.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = MyLib.cpp; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* MyLibProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = MyLibProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* MyLibTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = MyLibTarget.xcconfig; sourceTree = "<group>"; };
+		50B2938909F016FC00694E55 /* MyLibPriv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLibPriv.h; sourceTree = "<group>"; };
+		C9446F4A13464A9D004F408F /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		C971472D135632130035685F /* PointCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointCloud.h; sourceTree = "<group>"; };
+		C971472E135632130035685F /* PointCloud.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointCloud.cpp; sourceTree = "<group>"; };
+		C971474C1356388E0035685F /* Collider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Collider.h; sourceTree = "<group>"; };
+		C971474D1356388E0035685F /* Collider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Collider.cpp; sourceTree = "<group>"; };
+		C998D8601348F271008D0077 /* libnimCodecs.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnimCodecs.dylib; path = "../../../OpenNI/1-OpenNI-Bin-MacOSX-v1.0.0.25/Lib/libnimCodecs.dylib"; sourceTree = SOURCE_ROOT; };
+		C998D8611348F271008D0077 /* libnimMockNodes.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnimMockNodes.dylib; path = "../../../OpenNI/1-OpenNI-Bin-MacOSX-v1.0.0.25/Lib/libnimMockNodes.dylib"; sourceTree = SOURCE_ROOT; };
+		C998D8621348F271008D0077 /* libnimRecorder.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libnimRecorder.dylib; path = "../../../OpenNI/1-OpenNI-Bin-MacOSX-v1.0.0.25/Lib/libnimRecorder.dylib"; sourceTree = SOURCE_ROOT; };
+		C998D8631348F271008D0077 /* libOpenNI.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libOpenNI.dylib; path = "../../../OpenNI/1-OpenNI-Bin-MacOSX-v1.0.0.25/Lib/libOpenNI.dylib"; sourceTree = SOURCE_ROOT; };
+		D2AAC09D05546B4700DB518D /* libMyLib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMyLib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9446F4B13464A9D004F408F /* OpenGL.framework in Frameworks */,
+				C998D8641348F271008D0077 /* libnimCodecs.dylib in Frameworks */,
+				C998D8651348F271008D0077 /* libnimMockNodes.dylib in Frameworks */,
+				C998D8661348F271008D0077 /* libnimRecorder.dylib in Frameworks */,
+				C998D8671348F271008D0077 /* libOpenNI.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libMyLib.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* MyLib */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = MyLib;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C998D8601348F271008D0077 /* libnimCodecs.dylib */,
+				C998D8611348F271008D0077 /* libnimMockNodes.dylib */,
+				C998D8621348F271008D0077 /* libnimRecorder.dylib */,
+				C998D8631348F271008D0077 /* libOpenNI.dylib */,
+				C9446F4A13464A9D004F408F /* OpenGL.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				32BAE0B70371A74B00C91783 /* MyLib_Prefix.pch */,
+				50149BD909E781A5002DEE6A /* MyLib.h */,
+				50B2938909F016FC00694E55 /* MyLibPriv.h */,
+				5073E0C409E734A800EC74B6 /* MyLib.cpp */,
+				C971472D135632130035685F /* PointCloud.h */,
+				C971472E135632130035685F /* PointCloud.cpp */,
+				C971474C1356388E0035685F /* Collider.h */,
+				C971474D1356388E0035685F /* Collider.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* MyLibProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* MyLibTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50149BDA09E781A5002DEE6A /* MyLib.h in Headers */,
+				C971472F135632130035685F /* PointCloud.h in Headers */,
+				C971474E1356388E0035685F /* Collider.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* MyLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "MyLib" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+				C9446D9B134596E9004F408F /* CopyFiles */,
+				C9446E4F13459D68004F408F /* CopyFiles */,
+				C9446E8B1345A13A004F408F /* CopyFiles */,
+				C9446EBA1345A40C004F408F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyLib;
+			productName = libMyLib;
+			productReference = D2AAC09D05546B4700DB518D /* libMyLib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "MyLib" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* MyLib */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* MyLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5073E0CB09E734E500EC74B6 /* MyLib.cpp in Sources */,
+				C9714730135632140035685F /* PointCloud.cpp in Sources */,
+				C971474F1356388E0035685F /* Collider.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* MyLibTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyLib_Prefix.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../OpenNI/1-OpenNI-Bin-MacOSX-v1.0.0.25/Include\"";
+				LD_DYLIB_INSTALL_NAME = "./$(EXECUTABLE_PATH)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../OpenNI/1-OpenNI-Bin-MacOSX-v1.0.0.25/Lib\"",
+				);
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* MyLibTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = i386;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MyLib_Prefix.pch;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../../OpenNI/1-OpenNI-Bin-MacOSX-v1.0.0.25/Include\"";
+				LD_DYLIB_INSTALL_NAME = "./$(EXECUTABLE_PATH)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../OpenNI/1-OpenNI-Bin-MacOSX-v1.0.0.25/Lib\"",
+				);
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* MyLibProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* MyLibProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "MyLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "MyLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

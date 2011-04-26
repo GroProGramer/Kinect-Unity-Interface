@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+
+Project("{9E4941BA-9624-9155-22B1-E85AAB6F9DB5}") = "KinectPlugin8", "KinectPlugin8.csproj", "{98173C2F-A129-2013-7E20-06C4CDB72C59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98173C2F-A129-2013-7E20-06C4CDB72C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98173C2F-A129-2013-7E20-06C4CDB72C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98173C2F-A129-2013-7E20-06C4CDB72C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98173C2F-A129-2013-7E20-06C4CDB72C59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	
+EndGlobal

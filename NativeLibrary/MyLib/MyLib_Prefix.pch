@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'MyLib' target in the 'MyLib' project.
+//
+
+
+#include <iostream>
+
+#if _MSC_VER
+
+#define EXPORT_API __declspec(dllexport) // Visual Studio needs annotating exported functions with this
+	// OpenGL headers
+	#include <windows.h>
+	#include <gl/gl.h>
+#else 
+	#define EXPORT_API // XCode doesn't need annotated exported functions so this is empty
+	
+	#include <OpenGL/gl.h>
+	#include <CoreServices/CoreServices.h>
+	#include <CoreFoundation/CoreFoundation.h>
+#endif
+
+#include <XnOS.h>
+#include <math.h>
+#include <algorithm>
+#include <XnCppWrapper.h>
+using namespace xn;
+using namespace std;
